@@ -1,0 +1,11 @@
+--Compile
+In root diretory, type 'make'
+if wanna clean the complied files, type 'make clean'
+--Run
+Format: ./<exe> -c <cells> -n <nets> -o <output file name>
+e.g. ../bin/FM_Partitioner -c ../testcases/p2-1.cells -n ../testcases/p2-1.nets -o p2-1.out
+--Script
+run ./script.sh can generate all testcases results for once   
+
+
+4 February 2023 (HKT) by Jason
